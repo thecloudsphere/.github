@@ -8,9 +8,3 @@ orchestrator. Freely definable cloud infrastructures at the push of
 a button as self-service.
 
 ![Timon](/profile/images/timon.png "Timon")
-
-Currently, the development of the data model and the API as well as
-the respective CLI and SDK is in its final stages. A first alpha
-version of the public Timon service will be available soon. The first
-parts, such as sample environments and blueprints, are already available
-as previews.
