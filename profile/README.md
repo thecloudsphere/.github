@@ -1,10 +1,10 @@
-# Welcome to Timon
+# Welcome to The Cloudsphere
 
-Timon efficiently manages your cloud infrastructures 🚀
+The Cloudsphere efficiently manages your cloud infrastructures 🚀
 
 Automate infrastructure as code (IaC) provisioning at any scale,
 at any cloud or data center with any tool. Through a single central
 orchestrator. Freely definable cloud infrastructures at the push of
 a button as self-service.
 
-![Timon](/profile/images/timon.png "Timon")
+![The Cloudsphere](/profile/images/overview.png "The Cloudsphere")
