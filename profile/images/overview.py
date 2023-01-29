@@ -8,7 +8,7 @@ from diagrams.k8s.ecosystem import Helm
 from diagrams.onprem.iac import Ansible, Terraform
 
 
-with Diagram(filename="timon"):
+with Diagram(filename="overview"):
     user = User()
 
     with Cluster("Workload"):
@@ -16,10 +16,10 @@ with Diagram(filename="timon"):
         infrastructure_2 = Custom("", "logos/diagrams.png")
         infrastructure_3 = Custom("", "logos/diagrams.png")
 
-    with Cluster("Timon"):
-        timon = APIGateway("Timon orchestrator")
-        storage = S3("Timon storage")
-        registry = ECR("Timon registry")
+    with Cluster("The Cloudsphere"):
+        timon = APIGateway("Cloudsphere orchestrator")
+        storage = S3("Cloudsphere storage")
+        registry = ECR("Cloudsphere registry")
 
     with Cluster("Infrastructure As Code"):
         ansible = Ansible("Ansible")
